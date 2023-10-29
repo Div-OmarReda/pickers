@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  color: #333;
+  padding: 9.8rem 0;
+  background-color: #343a40;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.btn-pick:link,
+.btn-pick:visited {
+  font-size: 5rem;
+  text-decoration: none;
+  background-color: #20c997;
+  padding: 0.4rem 3.2rem;
+  font-weight: bold;
+  border-radius: 9888px;
+  color: #495057;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-pick:hover,
+.btn-pick:active {
+  background-color: #12b886;
+  color: #495057;
+}
+
+.label-player {
+  font-size: 5rem;
+  color: #fff;
+  margin-bottom: 3.2rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
