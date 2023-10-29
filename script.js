@@ -2,7 +2,7 @@ const teams = [
   `Arsenal`,
   `Milan`,
   `Liverpool`,
-  `West Germany`,
+  `West Ham`,
   `France`,
   `Real Madrid`,
   `Manchester United`,
@@ -26,6 +26,9 @@ const teams = [
   `Roma`,
   `Sevilla`,
   `Ajax`,
+  "everton",
+  "ajax amsterdam",
+  "w",
 ];
 let gues = Math.trunc(Math.random() * teams.length);
 let gues2 = Math.trunc(Math.random() * teams.length);
